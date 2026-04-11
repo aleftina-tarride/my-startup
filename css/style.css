@@ -1,25 +1,126 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
-@import url("components/avatar.css");
-@import url("components/banner.css");
-@import url("components/button.css");
-@import url("components/card.css");
-
+/* BODY */
 body {
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  margin: 0px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-}
-
-a {
-  text-decoration: none;
-}
-
+/* CONTAINER */
 .container {
-  width: 900px;
-  margin: 0 auto;
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* CARD */
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 20px;
+}
+
+.card-white:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+/* TITRES */
+h1, h2, h3 {
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #FF530D;
+}
+
+h2 {
+  font-size: 22px;
+  color: rgb(30, 30, 30);
+}
+
+/* LIENS */
+a {
+  color: #FF530D;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #cc3d00;
+}
+
+/* IMAGE RONDE */
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+/* TEXTE CENTRÉ */
+.text-center {
+  text-align: center;
+}
+
+/* BOUTON */
+.btn-red {
+  color: white;
+  background-color: #FF530D;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn-red:hover {
+  background-color: #cc3d00;
+  color: white;
+}
+
+/* LISTE INLINE */
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: white;
+  font-size: 14px;
+}
+
+.sidebar ul li a:hover {
+  color: #FF530D;
+}
+
+/* PAGE CONTENT */
+.page-content {
+  margin-left: 200px;
 }
