@@ -1,75 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CVVF82HQ5L"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CVVF82HQ5L');
+    </script>
     <meta charset="utf-8">
-    <title>My Profile</title>
-    <meta name="description" content="My personal profile page">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Trendly</title>
+    <meta name="description" content="Trendly - Your fashion destination">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-    <div class="sidebar">
-      <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#passions">Mes passions</a></li>
-        <li><a href="#projets">Mes projets</a></li>
-        <li><a href="#why">Pourquoi je code</a></li>
-        <li><a href="#social">Réseaux sociaux</a></li>
-      </ul>
+    <div class="banner">
+      <div class="container">
+        <h1>Trendly</h1>
+        <h2>Your ultimate fashion destination</h2>
+        <a href="" class="btn-pink">Discover now</a>
+      </div>
     </div>
 
-    <div class="page-content">
-      <div class="container">
-
-        <div class="card-white text-center" id="about">
-          <h1>Bonjour, je m'appelle Aleftina ! 👋</h1>
-          <img src="profile.jpg" alt="Ma photo de profil" class="img-circle">
-          <p>Je suis en formation chez Le Wagon et j'adore coder !</p>
-          <a href="https://www.lewagon.com" target="_blank" class="btn-red">Visiter Le Wagon</a>
-        </div>
-
-        <div class="card-white" id="passions">
-          <h2>Mes passions</h2>
-          <p>J'adore voyager et découvrir de nouvelles cultures. Chaque voyage est une nouvelle aventure !</p>
-        </div>
-
-        <div class="card-white" id="projets">
-          <h2>Mes projets</h2>
-          <p>Je travaille sur ma première page web. Bientôt je construirai des applications complètes !</p>
-        </div>
-
-        <div class="card-white" id="why">
-          <h2>Pourquoi je code</h2>
-          <p>Coder me permet de transformer mes idées en réalité. C'est comme avoir un super pouvoir !</p>
-        </div>
-
-        <div class="card-white text-center" id="social">
-          <h2>Me retrouver sur</h2>
-          <ul class="list-inline">
-            <li>
-              <a href="https://www.facebook.com/aleftina.tarride/" target="_blank">
-                <i class="fab fa-facebook-f"></i> Facebook
-              </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/aleftina-tarride/" target="_blank">
-                <i class="fab fa-linkedin-in"></i> LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/aleftinatarride?igsh=MXJseG00b3YxZWg2bw%3D%3D&utm_source=qr" target="_blank">
-                <i class="fab fa-instagram"></i> Instagram
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com" target="_blank">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-            </li>
-          </ul>
-        </div>
-
+    <div class="cards">
+      <div class="card">
+        <img src="images/look1.jpg" alt="Look 1">
+        <h3>Summer Collection</h3>
+      </div>
+      <div class="card">
+        <img src="images/look2.jpg" alt="Look 2">
+        <h3>Winter Collection</h3>
+      </div>
+      <div class="card">
+        <img src="images/look3.jpg" alt="Look 3">
+        <h3>Spring Collection</h3>
+      </div>
+      <div class="card">
+        <img src="images/look4.jpg" alt="Look 4">
+        <h3>Fall Collection</h3>
       </div>
     </div>
 
